@@ -74,7 +74,6 @@ Make sure to enable the GTK Theme in your Settings and after rebooting your syst
 |Win + Enter | Kitty (Terminal) |
 |Win + C | Close Window |
 |Win + X | Kill Window |
-
 |Ctrl + Shift + R | Reload BSPWM |
 
 ### Window Managent 
