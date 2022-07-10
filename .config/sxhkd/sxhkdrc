@@ -15,20 +15,13 @@ super + n
 	networkmanager_dmenu
 
 # Rofi Menus/Applets
-super + {r,m,p,a,s,i}
-	sh $HOME/.config/rofi/bin/{runner,music,powermenu,asroot,screenshot,network}
-super + b
-        rofi-bluetooth
+super + {r,m,p,s,i}
+	sh $HOME/.config/rofi/bin/{runner,music,powermenu,screenshot,network}
 
-# Dashboard (Unused)
-super + d
-	sh $HOME/.local/bin/dashboard
 
 # Applications
 
 # Launch Apps
-super + shift + {b,n}
-	{firefox,geany}
 super + e
 	thunar
 
@@ -43,8 +36,7 @@ ctrl + alt + l
 # System Keys
 
 # Show GUI screenshot
-super + shift + s
-        sh $HOME/.config/rofi/bin/screenshot
+
 
 # Take a screenshot
 Print
