@@ -1,9 +1,9 @@
 # BSPWM Catppuccin Rice
 
 ### Table of Content
-[Installation](#installation)
-[Screenshots](#screenshots)
-[Thanks to](#special-thanks-to0)
+- [Installation](#installation)
+- [Screenshots](#screenshots)
+- [Thanks to](#special-thanks-to)
 -----
 
  My | Catppuccin Rice |
@@ -20,11 +20,11 @@
 
 # Installation
 To install these dotfiles, either copy config files manually and look what software is needed, or (RECOMMENDED) clone the repo and run the `bspwm-install.sh`script. 
-```
-!!! The script used to install the files will install bspwm and all its needed componets for the rice. Make sure to backup your config first so it doesnt mess up anything. It's also a modified version of the bspwm Community Edition of EndeavourOS so I dont know if it will work on anything other than EndeavourOS
-```
+
+:warning: The script used to install the files will install bspwm and all its needed componets for the rice. Make sure to backup your config first so it doesnt mess up anything. It's also a modified version of the bspwm Community Edition of EndeavourOS so I dont know if it will work on anything other than EndeavourOS
+
 ## Manual Installation
-Just R.T.F.M
+Just [R.T.F.M](https://en.wikipedia.org/wiki/RTFM)
 
 Install following software:
 - bspwm
@@ -34,6 +34,7 @@ Install following software:
 - picom-arian8j2-git
 - sxkhd
 - polkit-gnome
+- ksuperkey
 - nitrogen
 - cava
 - kitty
@@ -44,8 +45,8 @@ Install following software:
 - fish
 - starship
 
-```
-yay -S bspwm polybar rofi dunst sxkhd polkit-gnome nitrogen cava kitty zathura zathura-pdf-mupdf catppuccin-gtk-theme networkmanager_dmenu fish starship
+```sh
+yay -S bspwm polybar rofi ksuperkey dunst sxkhd polkit-gnome nitrogen cava kitty zathura zathura-pdf-mupdf catppuccin-gtk-theme networkmanager_dmenu fish starship
 ```
 
 Now install the picom fork: `yay -S picom-arian8j2-git`
@@ -54,7 +55,8 @@ Make sure to pick your wallpaper in nitrogen and apply it. (I got mine from the 
 Make sure to enable the GTK Theme in your Settings and after rebooting your system you should be good to go :)
 
 # Screenshots
-![Screenshot](justtobbi-bspwm.png)
+![Desktop](https://github.com/justTOBBI/endeavour-bspwm/blob/master/assets/justtobbi-bspwm.png?raw=true)
+![Workflow](https://github.com/justTOBBI/endeavour-bspwm/blob/master/assets/workflow.png?raw=true)
 
 # Special thanks to:
 - [The Catppuccin Community](https://github.com/catppuccin) for creating all these ports
